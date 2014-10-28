@@ -2,7 +2,7 @@
 
 #DISCLAIMER
 
-I'm not responsible for any damage. There are mistakes in the schematic, though it works (see "Known issues" below). It's not the best possible schematic: it's the one that I tested to work. I made some choices by trial and error, for example the 47 Ω resistors, and the wire connecting Arduino digground and Beaglebone Black analog ground. I forgot to use the Arduino pin number 2 which was used in the original sketch. And so on. I tested it with a BeagleBone Black rev. A6A, an Arduino Rev. C and a Pixy in the Kickstarter version.
+I'm not responsible for any damage. There are mistakes in the schematic, though it works (see "Known issues" below). It's not the best possible schematic: it's the one that I tested to work. I made some choices by trial and error, for example the 47 Ω resistors, and the wire connecting Arduino digital ground and Beaglebone Black analog ground. I forgot to use the Arduino pin number 2 which was used in the original sketch. And so on. I tested it with a BeagleBone Black rev. A6A, an Arduino Rev. C and a Pixy in the Kickstarter version.
 
 #FAQ
 
@@ -20,6 +20,7 @@ I'm not responsible for any damage. There are mistakes in the schematic, though 
  
 * ##Breadboard schematic
 
+	This image was created with [Fritzing](http://fritzing.org) and released under the [CC by-sa 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license.
     Check out `petmouse.fzz`, `petmouse.svg` and `petmouse.png` too.
 
     ![PetMouse breadboard schematics](http://josieusa.com/petmouse.png)
@@ -43,7 +44,7 @@ I'm not responsible for any damage. There are mistakes in the schematic, though 
 
 * ##Is everything released under the GPL including the Fritzing schematics?
 
-    No. The Fritzing schematics (the files `petmouse.fzz`, `petmouse.png` and `petmouse.svg`) are released under the [Creative Commons Attribution - Non Commercial - No Derivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. I may change the license in the future.
+    No. The Fritzing schematics (the files `petmouse.fzz`, `petmouse.png` and `petmouse.svg`) are released under the [Creative Commons Attribution - ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license. The image of the breadboard view was created with [Fritzing](http://fritzing.org). I can't change the license in the future.
 
 # INSTRUCTIONS
 
